@@ -1,0 +1,8 @@
+paths:
+  static: ''
+  uploads: uploads
+timezone: Asia/Taipei
+markdown:
+  engine: commonmark
+  options: {}
+collections_config: {}
