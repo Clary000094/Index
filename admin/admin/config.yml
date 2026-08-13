@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images" # PM 上傳的圖片會放在這裡
+public_folder: "images"
+
+collections:
+  - name: "homepage"
+    label: "首頁管理"
+    files:
+      - name: "index"
+        label: "首頁內容"
+        file: "index.html"
+        format: "html"
+        fields:
+          - { name: "body", label: "首頁原始碼", widget: "html" }
